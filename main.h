@@ -5,12 +5,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdarg.h>
+int _putchar(char c);
 int _printf(const char *format, ...);
-typedef struct prints
-{
-	char *t;
-
-	int *f(va_list);
-} print;
-_write(char c);
+int _write(char c);
 #endif
