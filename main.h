@@ -9,6 +9,8 @@ int _printf(const char *format, ...);
 typedef struct prints
 {
 	char *t;
-	int *f(va_list)
-}print;
+
+	int *f(va_list);
+} print;
+_write(char c);
 #endif
