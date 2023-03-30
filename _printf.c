@@ -26,10 +26,18 @@ int _printf(const char *format, ...)
 			case 'c':
 				c = (char) va_arg(output, int);
 				_write(c);
+				(*counter)++;
 				break;
 			case 's':
-				s = va_arg(output, char*);
-				_write(s);
+				s = va_arg(output, char *);
+				if (s == NULL)
+					s ="(nil)";
+				for (; s[counter] != '\0'; s++)
+				{
+					_write(s);
+					(*counter)++;
+					return (strlen(s));
+				}
 				break;
 			case 'i':
 				i = va_arg(output, int);
@@ -42,6 +50,7 @@ int _printf(const char *format, ...)
 			case '%':
 				mod = '%';
 				_write(mod);
+				(*counter)++;
 			default:
 				continue;
 		}
