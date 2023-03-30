@@ -43,7 +43,6 @@ int _printf(const char *format, ...)
 				mod = '%';
 				_write(mod);
 			default:
-				_write(" ");
 				continue;
 		}
 	}
