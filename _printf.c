@@ -6,7 +6,7 @@
  */
 int _printf(const char *format, ...)
 {
-	char c;
+	char c, mod;
 	int i;
 	char *s;
 	float d;
@@ -16,7 +16,7 @@ int _printf(const char *format, ...)
 
 	va_start(output, format);
 	if ((output || format) == NULL)
-		return (NULL);
+		return (-1);
 	while (format && format[counter] != '\0')
 	{
 		if ((format[counter] == '%') && (format != '\0'))
