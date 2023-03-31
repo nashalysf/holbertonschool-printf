@@ -12,10 +12,10 @@ Project 1: A simple custom printf function
 Our project consist of `_printf()` a custom and simple mock of the printf function found in standard libraries in C languages.
 
 ### Conversion Specifiers:
-* s: prints a string
-* c: prints a single character
-* i: prints an integer
-* d: prints a decimal
+* %s: prints a string
+* %c: prints a single character
+* %i: prints an integer
+* %d: prints a decimal
 
 ## Criteria
 
@@ -39,7 +39,7 @@ To install the project follow these steps:
 
   1. Clone the application from GitHub with:
 
-   * `git clone`[clone link from GitHub]
+   * `git clone` [clone link from GitHub]
  
   2. From the project folder add:
 
