@@ -1,0 +1,36 @@
+.TH _PRINTF
+
+.SH NAME
+ _printf - Custom function to format and print output.
+
+.SH SYNOPSIS
+#include "main.h"
+int _printf(*format,...);
+
+.SH DESCRIPTION
+_printf is a custom function that prints arguments according to format and prints the formatted string. To use conversion specifiers add % followed by:
+
+.RS
+ c	Print a character.
+ s	Print a string.
+ i	Print an integer.
+ d	Print a decimal.
+.RE
+
+.SH EXAMPLES
+.RS
+#include "main.h"
+.PP int main()
+{
+.RS
+char str[] = "Hello World";
+
+_printf("The string is: %s\n", str);
+.RE
+}
+.SH RETURN VALUE
+The return value for _printf function is the number of characters printed or -1 if an error ocurred.
+
+.SH AUTHORS
+Written by Jenn, Braian and Zoey.
+March 31, 2023
