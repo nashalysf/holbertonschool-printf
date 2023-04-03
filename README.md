@@ -57,6 +57,8 @@ To install the project follow these steps:
     
     If you have any questions you can contact us! 
     
-    Braian: [bsj2025@hotmail.com](#bsj2025@hotmail.com)
+Braian: [bsj2025@hotmail.com](mailto:bsj2025@hotmail.com)
     
-    Zoey: [nashalysf@gmail.com](#nashalysf@gmail.com)
+Zoey: [nashalysf@gmail.com](mailto:nashalysf@gmail.com)
+
+Jenniffer: [jenniffer.felicianovelez@gmail.com](mailto:jenniffer.felicianovelez@gmail.com)
